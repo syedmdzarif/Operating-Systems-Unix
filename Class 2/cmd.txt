@@ -1,0 +1,52 @@
+-> echo hello  -> to print any line 
+
+-> export VAR=1   -> to keep variable in terminal 
+
+-> unset VAR   -> no $  no forget the stored variable 
+
+-> cp -r dir1 dir1_copy  -> recursively all copied to dir1_copy
+
+-> rm -d test  -> empty directory remove 
+
+-> rm -r test  -> test er bhitor kisu thakle remove recursively 
+
+-> rm -f test  -> exist na korleo work -> force delete without even permission 
+
+-> rm -ir test  -> i er jonno prompt ashbe delete er age 
+
+-> rm test test2 test3  -> can delete multiple FILES in one command 
+
+-> mv dir_move dir1  -> move hobe inside dir1
+
+-> mv test_file test  -> test naamer kisu exist na korle rename, otherwise move ->  works as rename notun naam is test 
+
+-> echo "" >> test1   -> new file open 
+
+-> cat file1 file2 >> file3  -> concate kore keep in file3, file3 
+                             -> judi >> dei, that is append, > is overwrite
+
+-> ls -la >> file3  -> prints all details in file 3
+
+
+-> head -n 3 file_cat  -> prothom theke 3 line print in terminal of file
+
+-> tail -n 3 file_cat  -> last theke print (last, then second last)
+
+
+-> wc file_cat  -> word count ->  line count / word count / character count / name of file 
+
+-> sort file1 file2 -> take contents of all, sort lexicographically -> ignore special characters at the start
+
+-> ls -la | wc  -> piping example -> linear, current has the access to only the immediate ager ta, not all
+
+
+
+
+-> user, group, owner each has read, write, execute -> chmod diye can alter
+
+-> chmod u+xw  file_cat -> emon file, jeitay user er execute nai, is enabled now 
+-> chmod u-xw file_cat -> remove hobe permission 
+-> chmod ug+rx file_cat -> mane both user and group er jonno added
+-> chmod ug=rx file_cat -> existing ki ase dont know, ekhon eita hoye jabe 
+-> chmod a+x file_cat -> dile ei file er all u g o shobar jonno x added
+-> chmod 777 file_cat -> 777 in binary is 111  111  111  mane for all u g o, all is 1, can do with numbers as well

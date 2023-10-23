@@ -1,0 +1,12 @@
+
+my name is
+zarif
+total 32
+drwxrwxr-x 4 ubuntu ubuntu 4096 Oct 23 11:17 .
+drwxrwxr-x 6 ubuntu ubuntu 4096 Oct 23 10:57 ..
+-rw-rw-r-- 1 ubuntu ubuntu  940 Oct 23 11:18 cmd.txt
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct 23 11:03 dir1
+drwxrwxr-x 4 ubuntu ubuntu 4096 Oct 23 11:10 dir1_copy
+-rw-rw-r-- 1 ubuntu ubuntu   12 Oct 23 11:15 file1
+-rw-rw-r-- 1 ubuntu ubuntu   11 Oct 23 11:17 file2
+-rw-rw-r-- 1 ubuntu ubuntu   18 Oct 23 11:16 file_cat
