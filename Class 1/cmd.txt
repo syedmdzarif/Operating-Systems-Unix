@@ -1,8 +1,7 @@
 -> mkdir dir1  -> to create a new directory named dir 1
 
 -> mkdir -pv dir1/dir2/dir3  -> parent na thakle create the parent, verbose with v to print what is being done 
-                          -> here, dir2 na thakle dir2 create kore then bhitore dir3 banabe for -parent
-
+                             -> here, dir2 na thakle dir2 create kore then bhitore dir3 banabe for -parent
 
 -> cd dir3  -> can navigate to dir3
 
