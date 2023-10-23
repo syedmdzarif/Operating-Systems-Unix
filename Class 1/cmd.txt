@@ -1,0 +1,26 @@
+-> mkdir dir1  -> to create a new directory named dir 1
+
+-> mkdir -pv dir1/dir2/dir3  -> parent na thakle create the parent, verbose with v to print what is being done 
+                          -> here, dir2 na thakle dir2 create kore then bhitore dir3 banabe for -parent
+
+
+-> cd dir3  -> can navigate to dir3
+
+-> cd ../  -> / na dileo ok  -> dile jeikhanei asi, tar immediate parent directory te jabe 
+
+-> cd /  -> dile jeikhanei asi, ekbare parent absoloute path e jabe
+
+-> touch file1  -> create new file 
+
+-> ls  -> list kore dekhabe what directory and file ase in current directory 
+
+-> ls -la  -> shob details shoho list korbe 
+
+-> ls -lA -> dile . and .. baad from the list 
+
+-> ls -laR  -> dile recursive, mane each directory te dhuke dhuke show all the la
+
+-> ls -laS / -lat / -lav  -> sort by size / time -> dir1/dir2 hole dir1 age ashbe cause time ascending sort / version 
+
+-> ls -r  -> reverse order e show 
+
