@@ -1,0 +1,8 @@
+-> grep "if" if_else.sh  -> dile if_else.sh file e koyta "if" lekha ase shob find 
+
+-> grep -E e+ if_else.sh  -> -E dile regular expression, na dile pattern matching 
+
+-> grep -Ec e+ if_else.sh  -> Ec dile count kore bolbe koyta instance ase
+
+-> grep -E e[cl] if_else.sh  -> e thakbe must, e er por c OR l thakbe [cl] mane c or l
+
