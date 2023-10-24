@@ -1,0 +1,4 @@
+-> bash sh_file_name.sh  -> runs always 
+
+-> ./sh_file_name.sh  -> note eita korle must be user er x permission -> chmod u+x sh_file_name.sh age, pore eita
+
