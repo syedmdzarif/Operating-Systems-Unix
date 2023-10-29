@@ -1,6 +1,0 @@
-Subjects
-Math 101
-CSE 101
-CSE 102
-English 101
-Chemistry 101
