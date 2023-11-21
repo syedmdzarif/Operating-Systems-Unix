@@ -1,0 +1,30 @@
+-> cut -d / -f 2-3 text.txt  -> delimiter is /, 2 theke 3 porjonto shob dibe 
+
+-> cut -d / -f 2-3 --output-delimiter=' ' test.txt  -> output e space diye seperated 
+
+-> cut -c 2- test.txt  -> character extract korbe 2 theke last porjonto, no -d -f here with -character
+
+
+
+
+
+
+-> sed 's/bermuda/bay' test.txt  -> only terminal e print bermuda na kore bay hobe oi jaygay
+
+-> sed 's/bermuda/bay/2' test.txt  -> eikhane only second bermuda change hobe 
+
+-> sed 's/bermuda/bay/g' test.txt -> korle all the bermuda change to bay
+
+-> sed 's/bermuda/bay/2g' test.txt -> korle 2nd bermuda theke all changed, not the 1st change 
+
+-> sed 's/bermuda/bay/2gp' test.txt -> for p, duibar print hobe in terminal 
+
+-> echo "hello world" | sed 's/world/zarif/'  -> piping, world er jaygay zarif print hobe 
+
+
+
+
+-> sed 's/[A-Z]/\L&/g' all_small.txt
+
+-> sed 's/[A-Z]/\L&/g' --in-place=all_small_edited.txt all_small.txt   -> new file all_small_edited.txt te output 
+
